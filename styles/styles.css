@@ -1,0 +1,57 @@
+
+  body, html {
+    height: 100%;
+    margin: 0;
+    background-color: skyblue;
+    font-family: Arial;
+  }
+  div {
+    margin-top: 15px;
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+  .title {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .subtitle {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .buttonDeselected {
+    background-color: #555;
+    color: white;
+    float: left;
+    cursor: pointer;
+    padding: 14px 20px;
+    font-size: 17px;
+    width: 25%;
+  }
+
+  .buttonSelected {
+    background-color: skyblue;
+    color: white;
+    float: left;
+    cursor: pointer;
+    padding: 14px 20px;
+    font-size: 17px;
+    width: 25%;
+  }
+
+  .content {
+    color: white;
+    padding: 100px 20px;
+    height: 100%;
+    text-align: center;
+  }
